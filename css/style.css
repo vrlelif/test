@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Anton";
+    src: url("../assets/Anton/Anton-Regular.ttf");
+}
+
+.paloma {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    width: 13%;
+
+
+}
+
+
+
+body {
+    background-image: url(../assets/CFS_Paloma_Infinity_Shot_04_0776-edit\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.verticalList {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 126px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    bottom: 5%;
+    left: 30%;
+    color: rgba(255, 255, 255, 0.7);
+    transform: rotate(-90deg);
+}
+
+.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
