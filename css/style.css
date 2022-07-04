@@ -7,11 +7,7 @@
     display: inline-flex;
     flex-direction: column-reverse;
     width: 13%;
-
-
 }
-
-
 
 body {
     background-image: url(../assets/CFS_Paloma_Infinity_Shot_04_0776-edit\ 2.png);
@@ -40,9 +36,6 @@ body {
 
 .no-bullets {
     list-style-type: none;
-    /* Remove bullets */
     padding: 0;
-    /* Remove padding */
     margin: 0;
-    /* Remove margins */
 }
